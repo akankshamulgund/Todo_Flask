@@ -10,3 +10,4 @@ all functions usually written in app.py
 
 to deploy:
 heroku --version
+heroku login
