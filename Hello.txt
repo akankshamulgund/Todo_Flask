@@ -6,3 +6,7 @@ pip install flask
 pip install flask-sqlalchemy
 
 all functions usually written in app.py
+
+
+to deploy:
+heroku --version
