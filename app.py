@@ -6,9 +6,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+
 
 class Todo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
